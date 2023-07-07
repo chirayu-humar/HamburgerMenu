@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.outerHome {
+  min-height: 100vh;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.outerHomeInnerDiv {
+  min-height: auto;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+.innerDivHome {
+  height: 300px;
+  width: 300px;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.homeImage {
+  width: 100%;
+}

@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.headerOuter {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom-style: solid;
+  height: 80px;
+  align-items: center;
+}
+.logoImage {
+  width: 40px;
+  height: 40px;
+}
+.trigger-button {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: white;
+  padding: 8px 15px 8px 15px;
+  margin: 8px;
+  background-color: #7c69e9;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}
+.popup-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.popupContainer {
+  height: 100vh;
+  background-color: red;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+.popupHeader {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.popurSecondDiv {
+  width: 100%;
+  flex-grow: 1;
+  min-height: auto;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.popupInner {
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
