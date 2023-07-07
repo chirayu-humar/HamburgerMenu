@@ -43,26 +43,31 @@ const Header = props => {
                 type="button"
                 className="trigger-button"
                 onClick={() => close()}
+                data-testid="closeButton"
               >
                 Close
               </button>
             </div>
             <div className="popurSecondDiv">
               <p>React is a popular and widely used programming language</p>
-              <div className="popupInner">
-                <Link to="/">
-                  <button onClick={() => close()} type="button">
-                    <AiFillHome />
-                    Home
-                  </button>
-                </Link>
-                <Link to="/about">
-                  <button onClick={() => close()} type="button">
-                    <BsInfoCircleFill />
-                    About
-                  </button>
-                </Link>
-              </div>
+              <ul className="popupInner">
+                <li>
+                  <Link to="/">
+                    <button onClick={() => close()} type="button">
+                      <AiFillHome />
+                      Home
+                    </button>
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/about">
+                    <button onClick={() => close()} type="button">
+                      <BsInfoCircleFill />
+                      About
+                    </button>
+                  </Link>
+                </li>
+              </ul>
             </div>
           </div>
         )}
